@@ -1,0 +1,61 @@
+<header
+  class="header"
+  id="header"
+  data-aos="fade-down"
+  data-aos-duration="550"
+  data-aos-once="true"
+>
+  <div class="container">
+    <a href="./index.html" class="logo">
+      <svg class="logo__icon" width="66" height="52">
+        <use href="./images/sprite.svg#icon-logo"></use>
+      </svg>
+    </a>
+    <nav class="nav">
+      <!-- Burger button -->
+
+      <button
+        type="button"
+        class="menu-toggle js-open-menu menu-burger"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg width="28" height="28" aria-label="Перемикач мобільного меню">
+          <use class="icon-menu" href="./images/sprite.svg#open-menu"></use>
+        </svg>
+      </button>
+      <ul class="site-nav">
+        <li class="site-nav__item">
+          <a href="#home" class="site-nav__link">Home</a>
+        </li>
+        <li class="site-nav__item">
+          <a href="#offerings" class="site-nav__link">Offerings</a>
+        </li>
+        <li class="site-nav__item">
+          <a href="#favorites" class="site-nav__link">Favorites</a>
+        </li>
+        <li class="site-nav__item">
+          <a href="#customers" class="site-nav__link">Customers Say</a>
+        </li>
+        <li class="site-nav__item">
+          <a href="#subscribe" class="site-nav__link">Subscribe</a>
+        </li>
+      </ul>
+      <!-----------------------------кнопка Order-now------------------------------------------------->
+      <div class="order">
+        <div>
+          <button
+            class="order__button order_button-header"
+            type="button"
+            data-menu-open
+          >
+            Order Now
+          </button>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- Script -->
+<script defer src="./index.js"></script>
